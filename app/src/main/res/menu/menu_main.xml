@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MainActivity">
+
+    <item
+        android:id="@+id/about_apps"
+        android:orderInCategory="100"
+        android:title="@string/about_apps"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/exit_app"
+        android:orderInCategory="100"
+        android:title="@string/exit_apps"
+        app:showAsAction="never"/>
+
+</menu>

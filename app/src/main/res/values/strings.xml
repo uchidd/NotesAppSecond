@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="txtTitleNewNote">Add new note</string>
+    <string name="about_dev"><![CDATA[This application was developed by Muhammad Mursyid Ibaadurrahman, in this application we have implemented the SQLite DBMS for storage, and implemented C.R.U.D (Create, Read, Update & Delete) on the application]]></string>
+    <string name="about_apps">About app</string>
+    <string name="exit_apps">Exit app</string>
+    <string name="lbl_new_notetitle">New Note</string>
+    <string name="lbl_edit_notetitle">Edit Note</string>
+</resources>

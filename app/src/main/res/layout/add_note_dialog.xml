@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDialogAddTitle"
+        android:text="@string/txtTitleNewNote"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorPrimary"
+        android:lineSpacingExtra="8sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNewNote"
+        android:gravity="top"
+        android:hint="Enter your note!"
+        android:textColorHint="#ccc7c7"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
